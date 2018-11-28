@@ -1,0 +1,27 @@
+git init 
+ - initialize your Repository 
+git add <file>
+ - add your file to the Repository
+git commit -m <"message">
+ - After you added a file,you need use this to storge file.
+ - message is only for record
+git status
+ - show the Working Tree,if your file has some changes,it shows the different
+git diff
+ - show the difference between two files
+git reset --hard (id[HEAD^/HEAD^^/HEAD~100])
+ - go to right id,make your file back that monent.
+git log
+ - show the log you make change
+git reflog
+ - see your command
+git checkout -- <file>
+ - throw out your file in the working tree(that is not added)
+git reset HEAD <file>
+ - throw out your file you added,but you not commit
+git rm <file>
+ - remove your file,after this you need commit -a
+git remote ~~~~~
+ - connect you github/git server
+git push -u origin master 
+ - update!
